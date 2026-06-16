@@ -9,6 +9,20 @@ public class Student {
 
     int course;
 
+
+    public Student() {
+    }
+
+    public Student(String birthDate, String lastName,
+                   String firstName, String gender, int age) {
+
+        this.birthDate = birthDate;
+        this.lastName = lastName;
+        this.name = firstName;
+        this.gender = gender;
+        this.age = age;
+    }
+
     void setName(String name) {
         this.name = name;
     }

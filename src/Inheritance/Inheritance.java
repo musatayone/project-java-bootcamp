@@ -13,7 +13,7 @@ public class Inheritance {
         Animal an1 = new Dog("Rex", 12.2); // polymorphism
         Animal an2 = new Cat("myoy", 2.2);
 
-        Animal[] animals = {an1, an2, new Animal("Default animal", 12312.12)};
+//        Animal[] animals = {an1, an2, new Animal("Default animal", 12312.12)};
 
     }
 }

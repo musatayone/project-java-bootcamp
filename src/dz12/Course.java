@@ -6,6 +6,16 @@ public class Course {
     int id;
     String teacherFullName;
 
+    public Course() {
+    }
+
+    public Course(String name, String creationDate, int id, String teacherName) {
+        this.name = name;
+        this.creationDate = creationDate;
+        this.id = id;
+        this.teacherFullName = teacherName;
+    }
+
     void setName(String name){
         this.name = name;
     }
