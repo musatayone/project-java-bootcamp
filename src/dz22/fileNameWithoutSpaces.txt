@@ -1,0 +1,1 @@
+publicclassTask1{publicstaticvoidmain(String[]args){
