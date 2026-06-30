@@ -9,6 +9,9 @@ public class Cat {
         this.age = age;
     }
 
+    public Cat(String name) {
+    }
+
     public int getAge() {
         return age;
     }
